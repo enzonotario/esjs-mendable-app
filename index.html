@@ -12,7 +12,9 @@
         <div id="app" style="height: 100vh; width: 100vw;"></div>
         <script type="module">
             import { usarTerminal } from '@es-js/terminal'
-            usarTerminal().setupTerminal('#app')
+            usarTerminal().setupTerminal('#app', {
+                theme: 'light'
+            })
         </script>
         <script type="module" src="/src/main.js"></script>
     </body>
