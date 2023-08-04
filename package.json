@@ -2,6 +2,7 @@
   "name": "@es-js/crear-terminal-app",
   "version": "0.0.1",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
@@ -10,7 +11,9 @@
   "devDependencies": {
     "@es-js/core": "^0.0.18",
     "@es-js/terminal": "1.0.0",
+    "@es-js/tiza": "1.0.0-beta.3",
     "@es-js/vite-plugin-esjs": "^0.0.13",
+    "snarkdown": "^2.0.0",
     "vite": "^4.4.8"
   }
 }

@@ -1,0 +1,24 @@
+const MENDABLE_API_URL = "https://api.mendable.ai/v0/mendableChat"
+
+exportar porDefecto asincrono funcion (conversacionId, pregunta) {
+  const data = {
+    api_key: importar.meta.env.VITE_MENDABLE_API_KEY,
+    question: pregunta,
+    conversation_id: conversacionId,
+    shouldStream: falso,
+  }
+
+	const respuesta = esperar fetch(MENDABLE_API_URL, {
+	  method: "POST",
+	  headers: {
+		Accept: "text/event-stream",
+		"Content-Type": "application/json",
+	  },
+	  body: JSON.stringify(data),
+	})
+
+	const json = esperar respuesta.json()
+    retornar {
+		respuesta: json.answer.text
+	}
+}
