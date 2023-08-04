@@ -1,0 +1,16 @@
+const MENDABLE_API_URL = "https://api.mendable.ai/v0/endConversation"
+
+exportar porDefecto asincrono funcion (conversacionId) {
+  const data = {
+    api_key: importar.meta.env.VITE_MENDABLE_API_KEY,
+    conversation_id: conversacionId,
+  }
+
+  retornar esperar fetch(MENDABLE_API_URL, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data),
+  })
+}

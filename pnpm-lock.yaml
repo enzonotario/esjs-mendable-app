@@ -11,9 +11,15 @@ devDependencies:
   '@es-js/terminal':
     specifier: 1.0.0
     version: 1.0.0
+  '@es-js/tiza':
+    specifier: 1.0.0-beta.3
+    version: 1.0.0-beta.3
   '@es-js/vite-plugin-esjs':
     specifier: ^0.0.13
     version: 0.0.13
+  snarkdown:
+    specifier: ^2.0.0
+    version: 2.0.0
   vite:
     specifier: ^4.4.8
     version: 4.4.8
@@ -238,6 +244,10 @@ packages:
 
   /@es-js/terminal@1.0.0:
     resolution: {integrity: sha512-TrjeO5ZY5V9ndNHDoLHaLd4vZnuFSiFSqD4JW149OQwq7zyt+hd47gW5ehHIGHbn6r0QWN5Oh/pewCNXdZl6dw==}
+    dev: true
+
+  /@es-js/tiza@1.0.0-beta.3:
+    resolution: {integrity: sha512-aQlC/fW/PmqtJr3l4m6Ck2X3aMcubt7o3WmAwrds8+J5q0FwhQGf9hFeQsgYJ0sHomAJ3wVtzwzQTioK9ggPow==}
     dev: true
 
   /@es-js/vite-plugin-esjs@0.0.13:
@@ -674,6 +684,10 @@ packages:
   /semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
+    dev: true
+
+  /snarkdown@2.0.0:
+    resolution: {integrity: sha512-MgL/7k/AZdXCTJiNgrO7chgDqaB9FGM/1Tvlcenenb7div6obaDATzs16JhFyHHBGodHT3B7RzRc5qk8pFhg3A==}
     dev: true
 
   /source-map-js@1.0.2:
