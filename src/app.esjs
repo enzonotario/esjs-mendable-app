@@ -49,7 +49,7 @@ asincrono funcion iniciar() {
     const mensajeError =
       "No entendí. Por favor, escribe <strong>hola</strong> para comenzar una conversación."
     responderUsuario(
-      modoOscuro ? tiza.rojo400(mensajeError) : tiza.rojo700(mensajeError)
+      tiza.rojo400(mensajeError)
     )
 
     respuesta = esperar preguntarUsuario()

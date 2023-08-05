@@ -9,8 +9,8 @@ devDependencies:
     specifier: ^0.0.18
     version: 0.0.18
   '@es-js/terminal':
-    specifier: 1.0.0
-    version: 1.0.0
+    specifier: 1.1.0
+    version: 1.1.0
   '@es-js/tiza':
     specifier: 1.0.0-beta.3
     version: 1.0.0-beta.3
@@ -242,8 +242,8 @@ packages:
     resolution: {integrity: sha512-VaKWmy8uUqnJQIyYDpLOcSjbsusZccQVWqejJfYSFtngMbRXv/TQiS4FDAq6WtsQfg5xNA5MuCXqAqjgL1OACg==}
     dev: true
 
-  /@es-js/terminal@1.0.0:
-    resolution: {integrity: sha512-TrjeO5ZY5V9ndNHDoLHaLd4vZnuFSiFSqD4JW149OQwq7zyt+hd47gW5ehHIGHbn6r0QWN5Oh/pewCNXdZl6dw==}
+  /@es-js/terminal@1.1.0:
+    resolution: {integrity: sha512-FLp9ayLwqSLYexXtIXkpGEADb33S8tRV0sKnFI7q9VWCB9NNPDk/GTlvhdyM//Obzx4ZXOTdHnsNo+dDMtPhkQ==}
     dev: true
 
   /@es-js/tiza@1.0.0-beta.3:

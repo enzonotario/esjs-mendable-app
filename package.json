@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@es-js/core": "^0.0.18",
-    "@es-js/terminal": "1.0.0",
+    "@es-js/terminal": "1.1.0",
     "@es-js/tiza": "1.0.0-beta.3",
     "@es-js/vite-plugin-esjs": "^0.0.13",
     "snarkdown": "^2.0.0",
