@@ -1,9 +1,14 @@
 importar { Terminal } desde "@es-js/terminal"
 importar { tiza } desde "@es-js/tiza"
-importar snarkdown desde "snarkdown"
+importar snarkdown desde "./markdown-parser.js"
 importar api desde "./api/api.esjs"
+importar { getHighlighter } desde "shikiji"
 
 const API_URL = "https://esjs-mendable-api.vercel.app/api/v1"
+
+const highlighter = esperar getHighlighter({
+  langs: ["js"],
+})
 
 funcion configurarColores() {
   Terminal.configurarColorFrente("#4ade80")
@@ -42,6 +47,7 @@ funcion responderCargando(texto = "Cargando...") {
 asincrono funcion iniciar() {
   configurarColores()
 
+  
   mensajeInicial()
 
   var respuesta = esperar preguntarUsuario()
@@ -93,7 +99,7 @@ asincrono funcion interactuar(conversacionId) {
 
   const respuesta = esperar chat(conversacionId, pregunta)
 
-  responderUsuario(snarkdown(respuesta))
+  responderUsuario(snarkdown(respuesta, null, highlighter))
 
   interactuar(conversacionId)
 }

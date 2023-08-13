@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -17,6 +17,9 @@ devDependencies:
   '@es-js/vite-plugin-esjs':
     specifier: ^0.0.13
     version: 0.0.13
+  shikiji:
+    specifier: ^0.2.2
+    version: 0.2.2
   snarkdown:
     specifier: ^2.0.0
     version: 2.0.0
@@ -684,6 +687,10 @@ packages:
   /semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
+    dev: true
+
+  /shikiji@0.2.2:
+    resolution: {integrity: sha512-lKsoFnOQWeMc1tHECFv66fxaTFjbkgQQaomPpT75ukQqho4L3vw9zAQWKuk/rWjddPyciuy8Gf6AvfVEVMBCvg==}
     dev: true
 
   /snarkdown@2.0.0:

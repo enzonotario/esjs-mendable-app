@@ -13,6 +13,7 @@
     "@es-js/terminal": "1.1.0",
     "@es-js/tiza": "1.0.0-beta.3",
     "@es-js/vite-plugin-esjs": "^0.0.13",
+    "shikiji": "^0.2.2",
     "snarkdown": "^2.0.0",
     "vite": "^4.4.8"
   }
