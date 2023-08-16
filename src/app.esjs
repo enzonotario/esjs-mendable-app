@@ -22,7 +22,7 @@ funcion mensajeInicial() {
   JavaScript con sintaxis en Español
   *******
 
-  Escribe <strong>hola</strong> para comenzar una conversación sobre EsJS con un asistente virtual potenciado por Inteligencia Artificial generada por <a href=\"https://mendable.ai/?utm_source=esjs.dev\" target=\"_blank\">${tiza.azul900.fondoAzul50(
+  Escribe <strong>hola</strong> para comenzar una conversación sobre EsJS con un asistente virtual potenciado por Inteligencia Artificial generada por <a href=\"https://mendable.ai/?ref=esjs.dev\" target=\"_blank\">${tiza.azul900.fondoAzul50(
       " Mendable "
     )}</a>
   </div>
@@ -47,7 +47,7 @@ funcion responderCargando(texto = "Cargando...") {
 asincrono funcion iniciar() {
   configurarColores()
 
-  
+
   mensajeInicial()
 
   var respuesta = esperar preguntarUsuario()
