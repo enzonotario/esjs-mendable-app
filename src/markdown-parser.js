@@ -19,7 +19,8 @@ function outdent(str) {
  *	@private
  */
 function encodeAttr(str) {
-	return (str+'').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+	return str; // NO codificar caracteres especiales.
+	// return (str+'').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
 /** Parse Markdown into an HTML String. */
